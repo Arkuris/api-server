@@ -3,12 +3,12 @@
 const FoodModel = (sequelize, DataTypes) => sequelize.define('Food', {
   name: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   type: {
     type: DataTypes.STRING,
-    allowNull: false
-  }
+    allowNull: false,
+  },
 });
 
-module.exports = FoodModel
+module.exports = FoodModel;
